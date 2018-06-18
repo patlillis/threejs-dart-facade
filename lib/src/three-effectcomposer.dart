@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_effectcomposer;
+library threejs_facade_test.three_effectcomposer;
 
 import "package:js/js.dart";
 import "three-core.dart" show WebGLRenderer, WebGLRenderTarget;

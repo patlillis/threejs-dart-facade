@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_orbitcontrols;
+library threejs_facade_test.three_orbitcontrols;
 
 import "package:js/js.dart";
 import "three-core.dart" show Camera, Vector3;

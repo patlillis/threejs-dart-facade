@@ -1,5 +1,5 @@
 @JS("Detector")
-library DefinitelyTyped.types.three.detector;
+library threejs_facade_test.detector;
 
 import "package:js/js.dart";
 import "dart:html" show HtmlElement;

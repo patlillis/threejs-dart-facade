@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_vreffect;
+library threejs_facade_test.three_vreffect;
 
 import "package:js/js.dart";
 import "three-core.dart" show Renderer, Scene, Camera, Matrix4;

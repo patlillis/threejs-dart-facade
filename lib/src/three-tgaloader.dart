@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_tgaloader;
+library threejs_facade_test.three_tgaloader;
 
 import "package:js/js.dart";
 import "three-core.dart" show LoadingManager, Texture;

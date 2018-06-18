@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_copyshader;
+library threejs_facade_test.three_copyshader;
 
 import "package:js/js.dart";
 import "three-core.dart" show Shader;

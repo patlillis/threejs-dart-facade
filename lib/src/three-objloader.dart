@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_objloader;
+library threejs_facade_test.three_objloader;
 
 import "package:js/js.dart";
 import "three-core.dart" show LoadingManager, Material, Group;

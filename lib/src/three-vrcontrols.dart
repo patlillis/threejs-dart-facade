@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_vrcontrols;
+library threejs_facade_test.three_vrcontrols;
 
 import "package:js/js.dart";
 import "three-core.dart" show Camera;

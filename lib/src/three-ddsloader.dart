@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_ddsloader;
+library threejs_facade_test.three_ddsloader;
 
 import "package:js/js.dart";
 import "dart:html" show ImageData;

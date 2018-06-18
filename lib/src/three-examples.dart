@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_examples;
+library threejs_facade_test.three_examples;
 
 import "package:js/js.dart";
 import "three-core.dart" show Shader;

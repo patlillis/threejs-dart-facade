@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_renderpass;
+library threejs_facade_test.three_renderpass;
 
 import "package:js/js.dart";
 import "three-core.dart"

@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_filmpass;
+library threejs_facade_test.three_filmpass;
 
 import "package:js/js.dart";
 import "three-effectcomposer.dart" show Pass;

@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_transformcontrols;
+library threejs_facade_test.three_transformcontrols;
 
 import "package:js/js.dart";
 import "three-core.dart" show Object3D, Camera;

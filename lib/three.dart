@@ -1,3 +1,8 @@
+@JS("THREE")
+library threejs_facade_test;
+
+import "package:js/js.dart";
+
 /// Type definitions for three.js 0.92
 /// Project: https://threejs.org
 /// Definitions by: Kon <http://phyzkit.net/>,
@@ -19,11 +24,6 @@
 /// Tiger Oakes <https://github.com/NotWoods>,
 /// Seth Kingsley <https://github.com/sethk>
 /// Definitions: https://github.com//DefinitelyTyped
-@JS("THREE")
-library DefinitelyTyped.types.three;
-
-import "package:js/js.dart";
-
 export "src/three-core.dart";
 export "src/three-canvasrenderer.dart";
 export "src/three-colladaLoader.dart";

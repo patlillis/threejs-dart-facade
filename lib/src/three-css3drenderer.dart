@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_css3drenderer;
+library threejs_facade_test.three_css3drenderer;
 
 import "package:js/js.dart";
 import "three-core.dart" show Object3D, Scene, Camera;

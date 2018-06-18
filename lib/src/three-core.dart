@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_core;
+library threejs_facade_test.three_core;
 
 import "package:js/js.dart";
 import "dart:typed_data"

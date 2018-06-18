@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_maskpass;
+library threejs_facade_test.three_maskpass;
 
 import "package:js/js.dart";
 import "three-core.dart" show Scene, Camera, WebGLRenderer, WebGLRenderTarget;

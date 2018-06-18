@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_outlinepass;
+library threejs_facade_test.three_outlinepass;
 
 import "package:js/js.dart";
 import "three-core.dart" show Vector2, Scene, Camera, Object3D, Color;

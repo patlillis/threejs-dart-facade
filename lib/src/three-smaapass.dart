@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_smaapass;
+library threejs_facade_test.three_smaapass;
 
 import "package:js/js.dart";
 

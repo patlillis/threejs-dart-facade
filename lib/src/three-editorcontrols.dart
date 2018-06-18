@@ -1,5 +1,5 @@
 @JS("THREE")
-library DefinitelyTyped.types.three.three_editorcontrols;
+library threejs_facade_test.three_editorcontrols;
 
 import "package:js/js.dart";
 import "three-core.dart" show EventDispatcher, Camera, Vector3, Object3D;
