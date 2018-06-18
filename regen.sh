@@ -40,7 +40,7 @@ cp -rf tmp/DefinitelyTyped/types/* lib
 # files we just generated are in `lib/three`. We'll move these to `lib/src` for
 # the sake of aesthetics.
 echo 'Moving implementation files from lib/three to lib/src...'
-mv ./lib/three ./lib/src
+mv lib/three lib/src
 
 # All of our generated Dart files have "library tmp.DefinitelyTyped.types.three"
 # at the top. We'd like these files to be in the "threejs_facade_test" library.
@@ -67,5 +67,5 @@ sed -i.bak 's:export ":export "src/:g' lib/three.dart && rm lib/three.dart.bak
 
 # Remove temporary files.
 echo 'Removing temporary files...'
-rm -rf ./tmp
+rm -rf tmp
 rm -rf ~/tmp/DefinitelyTyped
