@@ -15,7 +15,8 @@ Add a depency in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-    threejs_facade_test: ^0.0.2
+  threejs_facade_test: 
+    git: https://github.com/patlillis/threejs-dart-facade
 ```
 
 Install the package using `pub`:
