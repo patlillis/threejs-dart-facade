@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:html';
 import 'dart:math';
 
@@ -5,11 +6,11 @@ import 'package:threejs_facade_test/three.dart';
 
 import 'hilbert.dart';
 
-var mouseX = 0;
-var mouseY = 0;
+num mouseX = 0;
+num mouseY = 0;
 
-var windowHalfX = window.innerWidth / 2;
-var windowHalfY = window.innerHeight / 2;
+num windowHalfX = window.innerWidth / 2;
+num windowHalfY = window.innerHeight / 2;
 
 PerspectiveCamera camera;
 Scene scene;
@@ -18,11 +19,26 @@ WebGLRenderer renderer;
 void main() {
   init();
   animate();
+  test();
+}
+
+const l = [
+  1,
+  2,
+  3,
+  ['abc', Duration(seconds: 5)]
+];
+
+Future<void> test() async {
+  print('before: ${DateTime.now()}');
+  await new Future.delayed(const Duration(seconds: 5));
+  print('after: ${DateTime.now()}');
+  print(l);
 }
 
 void init() {
-  camera = new PerspectiveCamera(
-      33, window.innerWidth / window.innerHeight, 1, 10000);
+  camera =
+      PerspectiveCamera(33, window.innerWidth / window.innerHeight, 1, 10000);
   camera.position.z = 1000;
 
   scene = new Scene();
@@ -153,7 +169,7 @@ void init() {
   ];
 
   for (var i = 0; i < parameters.length; i++) {
-    var p = parameters[i];
+    dynamic p = parameters[i];
     var line = new Line(p[3], p[0]);
     line.scale.x = line.scale.y = line.scale.z = p[1];
     line.position.x = p[2][0];
